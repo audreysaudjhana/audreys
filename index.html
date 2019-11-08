@@ -2,36 +2,142 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
-	<title>Wadah Konsultasi</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Cuisine & Tourism</title>
+	<link rel="stylesheet" href="css/fontawesome.min.css" type="text/css">
+	<link rel="stylesheet" href="css/fontawesome.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<style>
+  	/* Make the image fully responsive */
+  		.carousel-inner img {
+      	width: 100%;
+      }
+  	</style>
 </head>
+
 <body>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<div class="container">
-  				<a class="navbar-brand" href="index.html">Wadah Konsultasi</a>
-  				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-  				</button>
+	<header class="sticky-top">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">	
+	<div class="container">
+  		<a class="navbar-brand" href="index.html">Cuisine & Tourism</a>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  		</button>
 
-	  			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-	    			<div class="navbar-nav ml-auto my-2 my-lg-0">
-	    				<a class="nav-item nav-link float-right" href="blog.html">Blog<span class="sr-only">(current)</span></a>
-	    				<a class="nav-item nav-link float-right" href="konsultasi.html">Konsultasi</a>
-	    				<a class="nav-item nav-link float-right" href="karir.html">Karir</a>
-	    				<a class="nav-item nav-link float-right" href="">Ikut Test</a>
-	    				<a class="nav-item nav-link float-right" href="pekerjaan.html">Lowongan Pekerjaan</a>
-	    				<a class="nav-item nav-link float-right" href="kontak.html">Kontak</a>
-	    			</div>
-	  			</div>
-		</nav>
+	  	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	    	<div class="navbar-nav ml-auto my-2 my-lg-0">
+	    	<a class="nav-item nav-link float-right" href="#food">Food Tourism</a>
+	    	<a class="nav-item nav-link float-right" href="#hotel">Hotel's Influence</a>
+	    	<a class="nav-item nav-link float-right" href="#location">Destination Marketing</a>
+	    	</div>
+	  	</div>
+	</nav>
+	</header>
 
-		<div class="jumbotron text-left">
-			<div class="container">
-				<h1 class="display-4">Wadah Konsultasi</h1>
-				<p class="lead">Tempatnya Konsultasi Akademik dan Pekerjaan</p>
+	<div id="uts" class="carousel slide" data-ride="carousel">
+
+	<!-- Indicators -->
+	<ul class="carousel-indicators">
+		<li data-target="#uts" data-slide-to="0" class="active"></li>
+	    <li data-target="#uts" data-slide-to="1"></li>
+	    <li data-target="#uts" data-slide-to="2"></li>
+	</ul>
+  
+ 	<!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/bukit.jpg"  height="600">
+    </div>
+    <div class="carousel-item">
+      <img src="img/gunung.jpg" height="600" >
+    </div>
+    <div class="carousel-item">
+      <img src="img/img-3.jpeg" height="600">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#uts" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#uts" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+		<div class="animated fadeInLeftBig">
+			<div class="jumbotron text-center">
+				<div class="container">
+					<h1 class="display-4">Cuisine & Tourism</h1>
+					<p class="lead">This is place for food lover</p>
+				</div>
+				<div class="row">
+					<div class="col-sm-4">
+						<img class="animated bounce infinite" src="img/food.png" width="50%">
+					</div>
+					<div class="col-sm-4">
+						<img class="animated bounce infinite" src="img/travel.png" width="50%">
+					</div>	
+					<div class="col-sm-4">
+						<img class="animated bounce infinite" src="img/location.png" width="50%">
+					</div>		
+				</div></br>
+				<div class="row">
+					<div class="col-sm-4">
+						<p>Food brings happiness</p>
+					</div>
+					<div class="col-sm-4">
+						<p>Let's go for a whole new adventure</p>
+					</div>	
+					<div class="col-sm-4">
+						<p>Every place hide best experience</p>
+					</div>		
+				</div>
 			</div>
 		</div>
+		<br>
+		<div class="container animated fadeInLeft slow">
+			<div class="row" id="food">
+				<div class="col-sm-6">
+					<img class="display-3" src="img/mejamakan.jpg" width="80%" style="border-radius: 5%;">
+				</div>
+				<div class="col-sm-6">
+					<h3>Food Tourism – The Latest Trend</h3>
+					<p>Public interest in food has been steadily increasing, ultimately transforming food tourism into the new global trend, even more so fueled by countless unique food experiences posted on social media sites. Unlike common tourism, food tourism focuses on culinary experience—food and drink that are locally sourced, rather than mere sightseeing. According to the Ontario Culinary Tourism Alliance (OCTA), culinary tourism refers to “any tourism experience in which one learns about, appreciates, and/or consumes food and drink that reflects the local, regional, or national cuisine, heritage, culture, tradition or culinary techniques”. The concept suggests people pursue a memorable food or drink experience by developing a better understanding and/or consuming local food or drink with the essence of culture in them. It is considered first-hand cultural experience and it is on top of the tourist attraction list.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="container animated fadeInRight slow">
+			<div class="row" id="hotel">
+				<div class="col-sm-6">
+					<h3>What Hotels and Tourism Businesses Can Do To Promote Food Tourism</h3>
+					<p>As food tourism is a growing tourist attraction, hotels and tour agencies can promote certain cuisines at certain countries by organizing regular tours focusing on cuisine. For instance, Four Seasons Hotel in Hangzhou, China, runs a private dinner and tour where tourists will be taken to the local food market where they can enjoy authentic Shanghainese and Cantonese cuisine.
 
+					Social media plays a role in driving the interest and enthusiasm in food experiences. Hence food tourism is massively popular among millennials, who share their food experiences on social media sites such as Facebook, Twitter, Instagram and YouTube. It is possible for marketers to acquire additional promotion through organizing events, such as market feast or beer festivals, and encouraging millennials to share the experiences on social media. Furthermore, a recent study by the United Nations World Tourism Organization (UNWTO) involving the UNWTO Affiliate Members working in different sectors, shows that food events are the most popular tourism product, followed by cooking class and workshops, as well as food fairs highlighting local products. Similar study also reveals that organizing events is the most used marketing and promotion tool, followed by brochures and advertising.</p>
+				</div>
+				<div class="col-sm-6">
+					<img class="display-3" src="img/hotel.jpeg" width="90%" style="border-radius: 5%;">
+				</div>
+			</div>
+		</div>
+		<br>
+		<div data-aos="fade-up" class="container">
+			<div class="row" id="location">
+				<div class="col-sm-6">
+					<img class="display-3" src="img/makanmeja.jpeg" height="55%" style="border-radius: 5%;">
+				</div>
+				<div class="col-sm-6">
+					<h3>Food Tourism Helps To Promote Destination Marketing</h3>
+					<p>As food is an integral part of cultural experience, some believed that food tourism plays an important role in promoting destination marketing. For the millennials, the internet is the main source of information as well as inspiration. Hotels and tour agencies can develop relevant content as part of their destination-marketing strategy. For instance, Australia has their own Instagram page focusing on all things local and featuring tourist attractions and culinary hotspots. Hence tourists are able to plan thoroughly—which places to visit and what food or drink to try.
 
-</div>
+					To conclude, culinary experience is becoming more and more a focus for traveling. As a new trend with a high amount of interest among the millennials, there are quite a number of digital marketing trends that hotels, restaurants, and tour agencies need to catch up to, focusing on content strategy and development. Moreover, some believed that dining is not the ‘final destination’ for food tourists, rather, it is learning about where the food comes from and how it was produced—is the future of food tourism. This means that there is an increasing request for a memorable cooking experience, and it is crucial for hotels and tour agencies to expand their culinary tourism choices in order to meet their customers’ demands and provide quality food tourism experiences.</p>
+				</div>
+			</div>
+		</div>
 </body>
 </html>
